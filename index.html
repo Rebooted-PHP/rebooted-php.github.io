@@ -7,7 +7,15 @@
         <script src="js/script.js"></script>
 
         <script type="text/javascript">
+        /** Wrapper for javascript. */
+        (function(){
             loadScript("js/app.js");
+
+            window.addEventListener('scroll', function() {
+  document.getElementById('showScroll').innerHTML = window.pageYOffset + 'px';
+});
+
+        }());
         </script>
     </head>
     <body>

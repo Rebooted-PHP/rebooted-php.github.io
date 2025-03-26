@@ -1,9 +1,9 @@
 
+"use strict";
 
 
 
-
-function import_script(var URI){
+function import_script(let URI){
 
     if(!empty(URI)){
         var script_tag = document.createElement("script");

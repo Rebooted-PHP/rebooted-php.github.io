@@ -3,11 +3,9 @@
 
 
 
-function import_script(let URI){
-
-        var script_tag = document.createElement("script");
-        script_tag.src = URI;
-        script_tag.async = false;
-        document.head.appendChild(script_tag);
-    
-}
+function loadScript(src) {
+    let script = document.createElement('script');
+    script.src = src;
+    script.async = false;
+    document.body.append(script);
+  }

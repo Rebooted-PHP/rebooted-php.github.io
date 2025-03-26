@@ -39,3 +39,10 @@ body {
     width: 100%;
     min-width: 1024px;
 }
+
+.site-header {
+    min-width: 100%;
+    min-height: 3vw;
+    margin-top: 0px;
+    bor
+}
